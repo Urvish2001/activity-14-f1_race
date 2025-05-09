@@ -95,11 +95,11 @@ def pp():
     global prev_error_linear, integral_linear, prev_error_angular, integral_angular, prev_time
     steering = AckermannDrive()
 
-    L = 0.3241  
+    L = 0.324  
     speed = 1.0
     K_dd = 0.3 
     min_ld = 0.7   
-    max_ld = 1.3
+    max_ld = 1.2
     goal_index = 0
     rate = rospy.Rate(10)
 
